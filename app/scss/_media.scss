@@ -1,0 +1,17 @@
+@media (max-width: 1300px) {
+  .header__info-inner {
+      &::before{
+          display: none;
+      }
+      &:after{
+          display: none;
+      }
+      .header__info-inner{
+          flex-wrap: wrap;
+          .header__info-logo{
+              max-width: 100%;
+              width: 100%;
+          }
+      }
+  }
+}
